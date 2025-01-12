@@ -82,10 +82,6 @@ main {
   color: #ffd700;
 }
 
-.collapsible:hover {
-  background-color: #b8860b;
-}
-
 .content {
   padding: 0 18px;
   display: none;
@@ -97,6 +93,7 @@ main {
   background-color: #000000;
   color: #0000FF;
   padding: 20px;
+  border: 2px solid #0000FF;
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -106,7 +103,6 @@ main {
   color: #FFFFFF;
   padding: 10px;
   text-decoration: none;
-  border: 2px solid #0000FF;
   border-radius: 5px;
   margin-right: 10px;
   display: inline-block;
