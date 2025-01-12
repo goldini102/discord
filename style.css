@@ -65,8 +65,8 @@ main {
 }
 
 .collapsible {
-  background-color: #000000;
-  color: #ffd700;
+  background-color: #d4af37; 
+  color: #ffd700; 
   border: none;
   cursor: pointer;
   padding: 10px;
@@ -77,15 +77,20 @@ main {
   margin-top: 10px;
 }
 
+.collapsible.collapsed {
+  background-color: #000000; 
+  color: #ffd700; 
+}
+
 .collapsible:hover {
-  background-color: #d4af37;
+  background-color: #b8860b; 
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #000000; 
 }
 
 footer {
