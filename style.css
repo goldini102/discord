@@ -64,9 +64,10 @@ main {
   color: #000000;
 }
 
+/* Collapsible Styles */
 .collapsible {
-  background-color: #d4af37; 
-  color: #ffd700; 
+  background-color: #000000;  /* Start with black background */
+  color: #ffd700;  /* Bright gold text */
   border: none;
   cursor: pointer;
   padding: 10px;
@@ -78,19 +79,24 @@ main {
 }
 
 .collapsible.collapsed {
-  background-color: #000000; 
-  color: #ffd700; 
+  background-color: #000000;
+  color: #ffd700;
+}
+
+.collapsible.active {
+  background-color: #d4af37;
+  color: #ffd700;
 }
 
 .collapsible:hover {
-  background-color: #b8860b; 
+  background-color: #b8860b;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #000000; 
+  background-color: #000000;
 }
 
 footer {
