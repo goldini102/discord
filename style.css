@@ -94,28 +94,27 @@ main {
 }
 
 .blue-project {
-  background-color: #0000FF;
-  color: #FFFFFF;
+  background-color: #000000;
+  color: #0000FF;
   padding: 20px;
   border-radius: 5px;
   margin-top: 10px;
 }
 
-/* Button styles inside the blue project */
 .blue-project a {
-  background-color: #FFFFFF;  /* White button */
-  color: #0000FF;  /* Blue text for the button */
+  background-color: #0000FF;
+  color: #FFFFFF;
   padding: 10px;
   text-decoration: none;
   border-radius: 5px;
-  margin-right: 10px;  /* Space between buttons */
-  display: inline-block;  /* Keep buttons inline */
+  margin-right: 10px;
+  display: inline-block;
   margin-top: 10px;
 }
 
 .blue-project a:hover {
-  background-color: #0000CD;  /* Darker blue hover effect */
-  color: #FFFFFF;  /* White text on hover */
+  background-color: #0000CD;
+  color: #FFFFFF;
 }
 
 .blue-project h2 {
