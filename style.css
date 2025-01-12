@@ -94,6 +94,22 @@ main {
   background-color: #000000;
 }
 
+.blue-project {
+  background-color: #0000FF;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.blue-project a {
+  background-color: #FFFFFF;
+  color: #0000FF;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 footer {
   background-color: #000000;
   color: #ffd700;
