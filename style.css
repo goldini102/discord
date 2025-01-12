@@ -77,14 +77,13 @@ main {
   margin-top: 10px;
 }
 
-.collapsible.collapsed {
-  background-color: #000000;
-  color: #ffd700;
-}
-
 .collapsible.active {
   background-color: #d4af37;
   color: #ffd700;
+}
+
+.collapsible:hover {
+  background-color: #b8860b;
 }
 
 .content {
@@ -102,12 +101,29 @@ main {
   margin-top: 10px;
 }
 
+/* Button styles inside the blue project */
 .blue-project a {
-  background-color: #FFFFFF;
-  color: #0000FF;
+  background-color: #FFFFFF;  /* White button */
+  color: #0000FF;  /* Blue text for the button */
   padding: 10px;
   text-decoration: none;
   border-radius: 5px;
+  margin-right: 10px;  /* Space between buttons */
+  display: inline-block;  /* Keep buttons inline */
+  margin-top: 10px;
+}
+
+.blue-project a:hover {
+  background-color: #0000CD;  /* Darker blue hover effect */
+  color: #FFFFFF;  /* White text on hover */
+}
+
+.blue-project h2 {
+  color: #FFFFFF;
+}
+
+.blue-project p {
+  color: #FFFFFF;
 }
 
 footer {
